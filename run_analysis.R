@@ -1,5 +1,5 @@
 ## Create project folder, download and extract files
-setwd ("D:/CleaningData") # Project folder
+#setwd ("D:/CleaningData") # Project folder
 if (!file.exists("project1")){dir.create("project")}
 setwd("project")
 url = "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
@@ -38,6 +38,8 @@ testDT$subject <- as.factor(DS[,1])
 #
 # Merge train and test data
 allDT <- rbind(trainDT, testDT)
+# correct column names fbodybody - fbody
+colnames(allDT) <- gsub("fbodybody", "fbody", colnames(allDT))
 rm(list =c( "testDT", "trainDT", "DS", "DY")) # clear memory
 # Convert activity code to labels
 actDT <- read.table("activity_labels.txt", sep=" ", header=FALSE , stringsAsFactors=FALSE)

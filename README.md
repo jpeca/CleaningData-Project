@@ -35,6 +35,7 @@ In new data set activity codes (as factors) are replaced with descriptive activi
 actDT <- read.table("activity_labels.txt", sep=" ", header=FALSE , stringsAsFactors=FALSE)
 levels(allDT$activity) <- actDT[,2]
 ```
+Also I found that column names contain fbodybody and assume that is error and replace with fbody with gsub
 
 
 At the and  independent data set  avgDF is created with the average of each variable for each activity and each subject.

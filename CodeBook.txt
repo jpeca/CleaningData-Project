@@ -1,0 +1,187 @@
+DATA DICTONARY - Result Data set
+--------------------------------
+
+This data set contains average of accelerometer data collected from the Samsung Galaxy S smart-phone by subject and activity. Columns are separated by space.
+
+prefix 't' in column name indicate time domain signal
+prefix 'f' in column name indicate frequency domain signals
+suffix '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+Id  columns:
+subject	
+	ordinal number  of subject in data set
+activity	
+	Activities from following list:
+		WALKING
+		WALKING_UPSTAIRS
+		WALKING_DOWNSTAIRS
+		SITTING 
+		STANDING
+		LAYING
+
+All subsequent columns are average value by subject and activity.
+TIME DOMAIN columns (prefix 't' in column name indicate time domain signal)
+
+ttbodyacc-mean-x
+	Average of x axis body linear acceleration
+tbodyacc-mean-y
+	Average of y axis body linear acceleration
+tbodyacc-mean-z
+	Average of z axis body linear acceleration
+tbodyacc-std-x
+	Standard deviation of x axis body linear acceleration
+tbodyacc-std-y
+	Standard deviation of y axis body linear acceleration
+tbodyacc-std-z
+	Standard deviation of z axis body linear acceleration
+tgravityacc-mean-x
+	Average of x axis body gravity cceleration
+tgravityacc-mean-y
+	Average of y axis body gravity cceleration
+tgravityacc-mean-z
+	Average of z axis body gravity cceleration
+tgravityacc-std-x
+	Standard deviation of x axis gravity acceleration
+tgravityacc-std-y
+	Standard deviation of y axis gravity acceleration
+tgravityacc-std-z
+	Standard deviation of z axis gravity acceleration derived in time
+tbodyaccjerk-mean-x
+	Average of x axis linear acceleration derived in time
+tbodyaccjerk-mean-y
+	Average of y axis body linear acceleration derived in time
+tbodyaccjerk-mean-z
+	Average of z axis body linear acceleration derived in time
+tbodyaccjerk-std-x
+	Standard deviation of x axis jerk acceleration
+tbodyaccjerk-std-y
+	Standard deviation of y axis body linear acceleration derived in time
+tbodyaccjerk-std-z
+	Standard deviation of z axis body linear acceleration derived in time
+tbodygyro-mean-x
+	Average of x axis angular velocity
+tbodygyro-mean-y
+	Average of y axis angular velocity
+tbodygyro-mean-z
+	Average of z axis angular velocity 
+tbodygyro-std-x
+	Standard deviation of x axis angular velocity
+tbodygyro-std-y
+	Standard deviation of y axis angular velocity
+tbodygyro-std-z
+	Standard deviation of z axis angular velocity 
+tbodygyrojerk-mean-x
+	Average of x axis angular velocity derived in time
+tbodygyrojerk-mean-y
+	Average of y axis angular velocity  derived in time
+tbodygyrojerk-mean-z
+	Average of z axis angular velocity  derived in time
+tbodygyrojerk-std-x
+	Standard deviation of x axis angular velocity
+tbodygyrojerk-std-y
+	Standard deviation of y axis angular velocity  derived in time
+tbodygyrojerk-std-z
+	Standard deviation of z axis angular velocity  derived in time
+tbodyaccmag-mean
+	Average of magnitude of linear acceleration
+tbodyaccmag-std
+	Standard deviation of magnitude of linear acceleration
+tgravityaccmag-mean
+	Average of magnitude of gravity acceleration
+tgravityaccmag-std
+	Standard deviation of magnitude of gravity acceleration
+tbodyaccjerkmag-mean
+	Average of magnitude of linear acceleration derived in time 
+tbodyaccjerkmag-std
+	Standard deviation of magnitude of linear acceleration derived in time 
+tbodygyromag-mean
+	Average of magnitude of angular velocity
+tbodygyromag-std
+	Standard deviation of magnitude of angular velocity
+tbodygyrojerkmag-mean
+	Average of magnitude of angular velocity derived in time
+tbodygyrojerkmag-std
+	Standard deviation of magnitude of angular velocity derived in time
+
+FREQENCY DOMAIN columns (prefix 'f' in column name indicate that Fast Fourier Transformation (FFT) is applied to signals)
+
+fbodyacc-mean-x
+	Average of x axis body linear acceleration
+fbodyacc-mean-y
+	Average of y axis body linear acceleration
+fbodyacc-mean-z
+	Average of z axis body linear acceleration
+fbodyacc-std-x
+	Standard deviation of x axis body linear acceleration
+fbodyacc-std-y
+	Standard deviation of y axis body linear acceleration
+fbodyacc-std-z
+	Standard deviation of z axis body linear acceleration
+fbodyacc-meanfreq-x
+	Weighted average of the frequency components  of x axis body linear acceleration
+fbodyacc-meanfreq-y
+	Weighted average of the frequency components  of y axis body linear acceleration
+fbodyacc-meanfreq-z
+	Weighted average of the frequency components  of z axis body linear acceleration
+fbodyaccjerk-mean-x
+	Average of x axis body gravity cceleration
+fbodyaccjerk-mean-y
+	Average of y axis body gravity cceleration
+fbodyaccjerk-mean-z
+	Average of z axis body gravity cceleration
+fbodyaccjerk-std-x
+	Standard deviation of x axis gravity acceleration
+fbodyaccjerk-std-y
+	Standard deviation of y axis gravity acceleration
+fbodyaccjerk-std-z
+	Standard deviation of z axis gravity acceleration derived in time
+fbodyaccjerk-meanfreq-x
+	Weighted average of the frequency  components of x axis body gravity cceleration
+fbodyaccjerk-meanfreq-y
+	Weighted average of the frequency  components of y axis body gravity cceleration
+fbodyaccjerk-meanfreq-z
+	Weighted average of the frequency  components of z axis body gravity cceleration
+fbodygyro-mean-x
+	Average of x axis linear acceleration derived in time
+fbodygyro-mean-y
+	Average of y axis body linear acceleration derived in time
+fbodygyro-mean-z
+	Average of z axis body linear acceleration derived in time
+fbodygyro-std-x
+	Standard deviation of x axis body acceleration derived in time
+fbodygyro-std-y
+	Standard deviation of y axis body linear acceleration derived in time
+fbodygyro-std-z
+	Standard deviation of z axis body linear acceleration derived in time
+fbodygyro-meanfreq-x
+	Weighted average of the frequency  components of x axis linear acceleration derived in time
+fbodygyro-meanfreq-y
+	Weighted average of the frequency  components of y axis body linear acceleration derived in time
+fbodygyro-meanfreq-z
+	Weighted average of the frequency  components of z axis body linear acceleration derived in time
+fbodyaccmag-mean
+	Average of magnitude of linear acceleration
+fbodyaccmag-std
+	Standard deviation of magnitude of linear acceleration
+fbodyaccmag-meanfreq
+	Weighted average of the frequency  components of magnitude of linear acceleration
+fbodyaccjerkmag-mean
+	Average of magnitude of linear acceleration derived in time 
+fbodyaccjerkmag-std
+	Standard deviation of magnitude of linear acceleration derived in time 
+fbodyaccjerkmag-meanfreq
+	Weighted average of the frequency  components of magnitude of linear acceleration derived in time 
+fbodygyromag-mean
+	Average of magnitude of angular velocity
+fbodygyromag-std
+	Standard deviation of magnitude of angular velocity
+fbodygyromag-meanfreq
+	Weighted average of the frequency  components of magnitude of angular velocity
+fbodygyrojerkmag-mean
+	Average of magnitude of angular velocity derived in time
+fbodygyrojerkmag-std
+	Standard deviation of magnitude of angular velocity derived in time
+fbodygyrojerkmag-meanfreq
+	Weighted average of the frequency  components of magnitude of angular velocity derived in time
+
+NOTE: For additional information about source values and measurements see http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
